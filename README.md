@@ -15,13 +15,17 @@ Anayasa hukukuna dair sorulara:
 - Eğitim yöntemi: PEFT (LoRA) + Unsloth hızlandırması
 - Eğitim verisi:
   - 1982 Türkiye Cumhuriyeti Anayasası (madde bazlı içerikler)
-  - [Renicames/turkish-law-chatbot](https://huggingface.co/datasets/Renicames/turkish-law-chatbot) veri seti – Türkçe hukuk temelli soru-cevap çiftleri  
+  - [RegenAI/Articles-of-the-Turkish-Constitution](https://huggingface.co/datasets/RegenAI/Articles-of-the-Turkish-Constitution) — Anayasa'nın İngilizce çevirisi dahil yapılandırılmış madde verileri
+  - [Renicames/turkish-law-chatbot](https://huggingface.co/datasets/Renicames/turkish-law-chatbot) — Türkçe hukuk temelli soru-cevap veri seti  
 - Eğitim donanımı: Google Colab / A100 GPU (40 GB)
 - Maks sekans uzunluğu: 1024 token
 
-> 📚 **Veri Seti Atfı:**  
-> Bu proje kapsamında Hugging Face üzerinden yayınlanan [Renicames/turkish-law-chatbot](https://huggingface.co/datasets/Renicames/turkish-law-chatbot) veri setinden yararlanılmıştır.  
-> Kaynak: Renicames. (2024). *turkish-law-chatbot* [Data set]. Hugging Face. https://huggingface.co/datasets/Renicames/turkish-law-chatbot
+> 📚 **Veri Seti Atıfları:**  
+> ✅ [Renicames/turkish-law-chatbot](https://huggingface.co/datasets/Renicames/turkish-law-chatbot)  
+> *Renicames. (2024). Turkish Law Chatbot Q&A Dataset. Hugging Face.*  
+>  
+> ✅ [RegenAI/Articles-of-the-Turkish-Constitution](https://huggingface.co/datasets/RegenAI/Articles-of-the-Turkish-Constitution)  
+> *RegenAI. (2024). Machine-readable Articles of the Turkish Constitution. Hugging Face.*
 
 ## 📁 Proje İçeriği
 
