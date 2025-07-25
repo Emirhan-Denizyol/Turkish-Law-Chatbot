@@ -13,9 +13,15 @@ Anayasa hukukuna dair sorulara:
 
 - Model: `unsloth/llama-3-8b-Instruct`
 - Eğitim yöntemi: PEFT (LoRA) + Unsloth hızlandırması
-- Eğitim verisi: 1982 Türkiye Cumhuriyeti Anayasası + soru-cevap çiftleri
+- Eğitim verisi:
+  - 1982 Türkiye Cumhuriyeti Anayasası (madde bazlı içerikler)
+  - [Renicames/turkish-law-chatbot](https://huggingface.co/datasets/Renicames/turkish-law-chatbot) veri seti – Türkçe hukuk temelli soru-cevap çiftleri  
 - Eğitim donanımı: Google Colab / A100 GPU (40 GB)
 - Maks sekans uzunluğu: 1024 token
+
+> 📚 **Veri Seti Atfı:**  
+> Bu proje kapsamında Hugging Face üzerinden yayınlanan [Renicames/turkish-law-chatbot](https://huggingface.co/datasets/Renicames/turkish-law-chatbot) veri setinden yararlanılmıştır.  
+> Kaynak: Renicames. (2024). *turkish-law-chatbot* [Data set]. Hugging Face. https://huggingface.co/datasets/Renicames/turkish-law-chatbot
 
 ## 📁 Proje İçeriği
 
